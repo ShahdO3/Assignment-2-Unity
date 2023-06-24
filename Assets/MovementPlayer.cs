@@ -70,6 +70,7 @@ public class MovementPlayer : MonoBehaviour
             forceDir.Normalize();
 
             hit.collider.attachedRigidbody.AddForceAtPosition(forceDir * force, transform.position, ForceMode.Impulse);
+         
         }
     }
 }
