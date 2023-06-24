@@ -15,11 +15,7 @@ public class TPCam : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
-            var rotX = dirLight.transform.rotation.x;
-            var rotVal = 45;
-            if (rotX >= 45)
-                rotVal = -45;
-            dirLight.transform.localEulerAngles = new Vector3(rotX + rotVal, 0, 0);
+            dirLight.transform.Rotate(45, 1, 0);
         }
     }
 }
