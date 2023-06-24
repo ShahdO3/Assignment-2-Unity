@@ -8,7 +8,7 @@ public class MovementPlayer : MonoBehaviour
 {
     [SerializeField] float speed = 9;
     [SerializeField] float mouseSensitivity = 3.5f;
-    [SerializeField] Camera cam = null;
+    [SerializeField] GameObject cam = null;
     [SerializeField] float force = 1;
     [SerializeField] float gravity = -13.5f;
     [SerializeField] float jumpHeight = 3.5f;
