@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ab2507403a577042822f5aeb023bb1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam1: {fileID: 0}
-  cam2: {fileID: 0}
-  dirLight: {fileID: 0}
-  postProssessing: {fileID: 0}
+  cam1: {fileID: 2800480347653874900, guid: d4f556cfdc4735a4dbb9f46c8c847536, type: 3}
+  cam2: {fileID: 108680454467633369, guid: 15c0b9856f5af52449d4a2cb0e834ed1, type: 3}
+  dirLight: {fileID: 6739043864702246787, guid: 481a489d50d627247aeef16ba2c941b9, type: 3}
+  postProssessing: {fileID: 3791498084199995988, guid: 70eda3929ebc12d4e9f188e9606b4dfe, type: 3}
